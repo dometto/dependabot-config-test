@@ -1,1 +1,1 @@
-jupyterhub~=5.0
+jupyterhub~=5.5
