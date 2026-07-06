@@ -23,7 +23,7 @@ updates:
     schedule:
       interval: "weekly"
     ignore:
-      - dependency-name: "*"
+      - dependency-name: "jupyterhub"
         update-types:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
