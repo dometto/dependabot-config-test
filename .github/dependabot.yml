@@ -9,3 +9,21 @@ updates:
         update-types:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
+  - package-ecosystem: "pip"
+    directory: "/test1"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+  - package-ecosystem: "pip"
+    directory: "/test2"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
